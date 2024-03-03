@@ -1,4 +1,4 @@
--- The original float base addon is broken from new updates. I took the original code and rewrote parts of it to make it functional again.
+-- The original float base addon is broken from new updates. I took the original code and rewrote parts of it to make it functional and nothing else more.
 if SERVER then
 	hook.Add("Think", "simf_swimmode_", function()
 		for k,ent in pairs(ents:GetAll()) do
